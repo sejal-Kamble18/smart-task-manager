@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Shared tokens and primitives keep pages responsive without page-specific overrides. */
+:root { --ink: #102047; --brand: #4857ee; }
+* { box-sizing: border-box; }
+html { overflow-x: hidden; background: #f7f9ff; }
+body { min-width: 320px; margin: 0; color: var(--ink); background: linear-gradient(135deg, #f8faff 0%, #fff 48%, #eef3ff 100%); }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+.card { @apply rounded-2xl border border-slate-200/80 bg-white shadow-[0_8px_30px_rgb(15,35,85,0.05)]; }
+.field { @apply min-h-11 w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm outline-none transition focus:border-indigo-400 focus:ring-4 focus:ring-indigo-100; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition; }
+.btn-primary { @apply bg-indigo-600 text-white shadow-lg shadow-indigo-200 hover:bg-indigo-700; }
+.btn-secondary { @apply border border-slate-200 bg-white text-slate-700 hover:bg-slate-50; }
