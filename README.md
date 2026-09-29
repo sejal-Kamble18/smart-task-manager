@@ -274,16 +274,15 @@ No deployment configuration, hosting configuration, CI workflow, Dockerfile, or 
 
 ## 17. Screenshots
 
-Add verified project screenshots before final submission.
+| Landing Page | Dashboard |
+|---|---|
+| ![Landing Page](docs/screenshots/landing-page.png) | ![Dashboard](docs/screenshots/dashboard.png) |
 
-| Screen | Placeholder |
-| --- | --- |
-| Landing page | `docs/screenshots/landing-page.png` |
-| Dashboard | `docs/screenshots/dashboard.png` |
-| Task management | `docs/screenshots/tasks.png` |
-| Mobile navigation | `docs/screenshots/mobile-navigation.png` |
+| Task Management | Mobile Navigation |
+|---|---|
+| ![Task Management](docs/screenshots/tasks.png) | ![Mobile Navigation](docs/screenshots/mobile-navigation.png) |
 
-## Author
+## 18. Author
 
-**Sejal Kamble**\
+**Sejal Kamble**  
 B.Tech, Computer Science and Engineering | Full-Stack & AI Developer
