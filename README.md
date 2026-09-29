@@ -9,7 +9,7 @@ The project deliberately contains two runnable parts:
 1. A **Next.js frontend** that is currently local-first. It stores its users, session, tasks, timestamps, and task-history entries in the browser's `localStorage`.
 2. An **Express API** that demonstrates the requested in-memory backend API. Its users, tasks, and sessions live in server-side `Map` objects and are reset when the server restarts.
 
-> **Current implementation:** the frontend's `lib/api.ts` is an asynchronous facade over the local storage service; it does not issue HTTP requests to the Express server. This separation is intentional so a later HTTP implementation can replace the facade without rewriting UI components.
+> [Live URL](https://smart-task-manager-gamma-vert.vercel.app/)
 
 ## 2. Problem solved
 
