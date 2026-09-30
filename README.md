@@ -247,7 +247,9 @@ The UI uses a mobile-first layout. It has a 320px minimum document width, smalle
 
 ## 13. Deployment
 
-No deployment configuration, hosting configuration, CI workflow, Dockerfile, or production environment configuration is present in this repository. Deployment is therefore not documented as implemented.
+Both the frontend and backend are deployed. Add the live URLs here:
+> [Live Frontend URL](https://smart-task-manager-gamma-vert.vercel.app/) : https://smart-task-manager-gamma-vert.vercel.app/ <br>
+> [Live Backend URL](https://smart-task-manager-backend-w01w.onrender.com/) : https://smart-task-manager-gamma-vert.vercel.app/
 
 ## 14. Known limitations
 
