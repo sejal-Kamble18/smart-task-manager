@@ -23,6 +23,12 @@ app.use(express.json());
 app.use("/api", router);
 app.use("/api/v1", router);
 
-app.listen(port, () => {
-  console.log(`Smart Task Manager API running on http://localhost:${port}`);
+// app.listen(port) = Uses Node's default host behavior
+// app.listen(port, () => {
+//   console.log(`Smart Task Manager API running on http://localhost:${port}`);
+// });
+
+// app.listen(port, "0.0.0.0") = Listen on all network interfaces — suitable for Render
+app.listen(port, "0.0.0.0", () => {
+  console.log(`Smart Task Manager API running on port ${port}`);
 });
