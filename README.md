@@ -5,7 +5,7 @@
 A full-stack task management application built as a Front End Intern assignment. It implements role-based task assignment with dependency-aware status transitions, mock JWT authentication, and an admin/user dashboard experience. It gives a team a single workspace to create work, assign an owner, track progress, and prevent work from being completed before its prerequisites are ready.
 
 > [Live Frontend URL](https://smart-task-manager-gamma-vert.vercel.app/) : https://smart-task-manager-gamma-vert.vercel.app/ <br>
-> [Live Backend URL](https://smart-task-manager-backend-w01w.onrender.com/) : https://smart-task-manager-gamma-vert.vercel.app/
+> [Live Backend URL](https://smart-task-manager-backend-w01w.onrender.com/) : https://smart-task-manager-backend-w01w.onrender.com
 
 ---------------------------------------------------------
 ### Default Login Credentials
