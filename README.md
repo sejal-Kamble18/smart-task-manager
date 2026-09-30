@@ -4,7 +4,8 @@
 
 A full-stack task management application built as a Front End Intern assignment. It implements role-based task assignment with dependency-aware status transitions, mock JWT authentication, and an admin/user dashboard experience. It gives a team a single workspace to create work, assign an owner, track progress, and prevent work from being completed before its prerequisites are ready.
 
-> [Live URL](https://smart-task-manager-gamma-vert.vercel.app/)
+> [Live Frontend URL](https://smart-task-manager-gamma-vert.vercel.app/) : https://smart-task-manager-gamma-vert.vercel.app/ <br>
+> [Live Backend URL](https://smart-task-manager-backend-w01w.onrender.com/) : https://smart-task-manager-gamma-vert.vercel.app/
 
 ---------------------------------------------------------
 ### Default Login Credentials
@@ -16,8 +17,6 @@ A default admin account is seeded in the backend's data file:
 | Admin | `admin@gmail.com`   | `admin123` |
 
 Regular user accounts can be created by an admin using the **Create User** flow or `POST /api/v1/auth/users`.
-
-> **Note:** These are development/demo credentials only and should not be used in a production deployment.
 
 ## 2. Problem solved
 
