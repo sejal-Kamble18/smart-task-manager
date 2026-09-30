@@ -4,12 +4,20 @@
 
 A full-stack task management application built as a Front End Intern assignment. It implements role-based task assignment with dependency-aware status transitions, mock JWT authentication, and an admin/user dashboard experience. It gives a team a single workspace to create work, assign an owner, track progress, and prevent work from being completed before its prerequisites are ready.
 
-The project deliberately contains two runnable parts:
-
-1. A **Next.js frontend** that is currently local-first. It stores its users, session, tasks, timestamps, and task-history entries in the browser's `localStorage`.
-2. An **Express API** that demonstrates the requested in-memory backend API. Its users, tasks, and sessions live in server-side `Map` objects and are reset when the server restarts.
-
 > [Live URL](https://smart-task-manager-gamma-vert.vercel.app/)
+
+---------------------------------------------------------
+### Default Login Credentials
+
+A default admin account is seeded in the backend's data file:
+
+| Role  | Email              | Password   |
+|-------|--------------------|------------|
+| Admin | `admin@gmail.com`   | `admin123` |
+
+Regular user accounts can be created by an admin using the **Create User** flow or `POST /api/v1/auth/users`.
+
+> **Note:** These are development/demo credentials only and should not be used in a production deployment.
 
 ## 2. Problem solved
 
